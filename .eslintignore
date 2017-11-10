@@ -2,3 +2,4 @@ build/*.js
 config/*.js
 src/api/index.js
 src/page/*.vue
+src/main.js
