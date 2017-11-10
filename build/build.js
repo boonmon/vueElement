@@ -10,7 +10,12 @@ const chalk = require('chalk')
 const webpack = require('webpack')
 const config = require('../config')
 const webpackConfig = require('./webpack.prod.conf')
-
+console.log("打印本地环境"+process.env.NODE_ENV);
+console.log(
+  '  Tip:\n' +
+  '  Built files are meant to be served over an HTTP server.\n' +
+  '  Opening index.html over file:// won\'t work.\n'
+)
 const spinner = ora('building for production...')
 spinner.start()
 
